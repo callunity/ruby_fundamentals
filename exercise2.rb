@@ -15,5 +15,4 @@ puts "45628 times 7839 equals #{45628 * 7839}"
 #4. Chaining 'or' and 'and'
 # (false) || (false) || (false) => false, since none of 
 # the 'and' expressions evaluate to true
-expression = (true && false) || (false && true) || (false && false)
-puts expression
+puts (true && false) || (false && true) || (false && false)
